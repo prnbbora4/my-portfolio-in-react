@@ -5,6 +5,9 @@ import ProjectsPageApi from "./Api/ProjectsApi";
 const ProjectForPage = () => {
     const [projects, setProjectsPages] = useState(ProjectsPageApi)
 
+    // eslint-disable-next-line
+    setProjectsPages
+
     return (
         <>
             <section>

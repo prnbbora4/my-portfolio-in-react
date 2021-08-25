@@ -1,8 +1,13 @@
 import React, {useState} from 'react'
 import ProjectsApi from "./Api/ProjectsApi";
 
+
 const Projects = () => {
     const [projects, setProjects] = useState(ProjectsApi)
+    
+    // eslint-disable-next-line
+    setProjects
+    
     return (
         <>
             <section>
