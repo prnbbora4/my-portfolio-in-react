@@ -77,7 +77,7 @@ const Contact = () => {
                                     </p>
                                     <figure>
                                         <img
-                                            src="./images/hero1.jpg"
+                                            src="./images/contacts.svg"
                                             alt="contatUsImg"
                                             className="img-fluid"
                                         />
